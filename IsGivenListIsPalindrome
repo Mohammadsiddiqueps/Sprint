@@ -1,0 +1,15 @@
+3 6 first_element_location:46 length:5 
+isPalindrome:1
+7 first_element_location first
+1 first_element_location length last
+2 last one last
+check:5 first last checker
+1 isPalindrome one isPalindrome
+3 stop
+checker:4 first:0 last:0 increment
+stop:9
+increment:1 first one first
+2 last one last
+3 check
+one:1
+0 0 0 1 2 1 2 1
