@@ -1,0 +1,18 @@
+3 start num:40 isPrime:1 Temp:0 Value:2 limit:0 one:1 zero:0
+start:7 num Temp
+4 num Value stop
+firstbegin:5 zero Temp first
+secondbegin:4 Temp zero second
+1 Value one Value
+7 num Temp
+5 Value limit third
+3 stop
+first:2 Temp Value Temp
+1 limit one limit
+3 firstbegin
+second:7 zero isPrime
+stop:9
+third:5 zero Temp fourth
+3 secondbegin
+fourth:2 Temp Value Temp
+3 third
