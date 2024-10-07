@@ -1,0 +1,25 @@
+3 5 num1:22 num2:7
+7 num1 temp
+firstbegin:5 temp num2 first
+2 temp num2 temp
+1 counter one counter
+3 firstbegin
+first:7 counter result:ans
+7 one counter
+1 result one result
+5 zero temp tenmul
+stop:9 
+tenmul:7 temp temp1
+tenmulbegin:5 counter ten tenmulagain
+7 zero counter
+3 firstbegin
+tenmulagain:1 counter one counter
+1 temp temp1 temp
+3 tenmulbegin
+ten:10
+temp1:0
+temp:0
+one:1
+zero:0
+counter:0
+ans:0
