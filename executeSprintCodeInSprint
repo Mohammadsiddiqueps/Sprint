@@ -1,0 +1,151 @@
+start:4 jump currentcell:inputprogram jumper
+7 currentcell currentcellhalt
+7 currentcell currentcellhalt1
+
+4 halt currentcellhalt:0 currentcellhalt1:0
+
+7 currentcellhalt currentcelladd
+4 add currentcelladd:0 adder
+
+7 currentcelladd currentcellsub
+4 sub currentcellsub:0 suber
+
+7 currentcellsub currentcellequal
+4 equal currentcellequal:0 isequal
+
+
+7 currentcellequal currentcellless
+4 less currentcellless:0 isless
+
+
+
+
+
+
+
+jumper:1 currentcell one currentcell
+7 currentcell jumpcell
+1 firstcell jumpcell:0
+jumploc
+2 jumploc one jumploc
+7 jumploc currentcell
+3 start
+
+
+adder:7 currentcelladd addnum1
+1 addnum1 one addnum1
+7 addnum1 addnum2
+1 addnum2 one addnum2
+7 addnum2 addresult
+1 addresult one addresult
+7 addresult currentcell
+1 currentcell one currentcell
+7 addnum1 addnum11
+1 firstcell addnum11:0 addnum1
+2 addnum1 one addnum1
+7 addnum2 addnum22
+1 addnum22:0 firstcell addnum2
+2 addnum2 one addnum2
+1 addresult:0 firstcell addstored
+2 addstored one addstored
+1 addnum1:0 addnum2:0 
+addstored:0
+
+
+
+3 start
+
+suber:7 currentcellsub subnum1
+1 subnum1 one subnum1
+7 subnum1 subnum2
+1 subnum2 one subnum2
+7 subnum2 subresult
+1 subresult one subresult
+7 subresult currentcell
+1 currentcell one currentcell
+7 subnum1 subnum11
+1 firstcell subnum11:0 subnum1
+2 subnum1 one subnum1
+7 subnum2 subnum22
+1 subnum22:0 firstcell subnum2
+2 subnum2 one subnum2
+1 subresult:0 firstcell substored
+2 substored one substored
+2 subnum1:0 subnum2:0 
+substored:0
+3 start
+
+
+
+
+
+isequal:7 currentcellequal eqnum1
+1 eqnum1 one eqnum1
+7 eqnum1 eqnum2
+1 eqnum2 one eqnum2
+7 eqnum2 eqresult
+1 eqresult one eqresult
+7 eqresult currentcell
+1 currentcell one currentcell
+7 eqnum1 eqnum11
+1 firstcell eqnum11:0 eqnum1
+2 eqnum1 one eqnum1
+7 eqnum2 eqnum22
+1 eqnum22:0 firstcell eqnum2
+2 eqnum2 one eqnum2
+7 eqresult eqstore
+1 eqstore:0 firstcell eqresult
+2 eqresult one eqresult
+4 eqnum1:0 eqnum2:0 
+check
+3 start
+check:7 eqresult currentcell
+3 start
+
+
+
+
+
+isless:7 currentcellless lessnum1
+1 lessnum1 one lessnum1
+7 lessnum1 lessnum2
+1 lessnum2 one lessnum2
+7 lessnum2 lessresult
+1 lessresult one lessresult
+7 lessresult currentcell
+1 currentcell one currentcell
+7 lessnum1 lessnum11
+1 firstcell lessnum11:0 lessnum1
+2 lessnum1 one lessnum1
+7 lessnum2 lessnum22
+1 lessnum22:0 firstcell lessnum2
+2 lessnum2 one lessnum2
+7 lessresult lessstore
+1 lessstore:0 firstcell lessresult
+2 lessresult one lessresult
+5 lessnum1:0 lessnum2:0 
+check1
+3 start
+check1:7 lessresult currentcell
+3 start
+
+
+
+
+
+
+
+
+
+lessresult:0
+eqresult:0
+jumploc:0
+firstcell:inputprogram
+one:1
+sub:2
+equal:4
+less:5
+jump:3
+halt:9
+add:1
+inputprogram:5 1 6 5 9 4
