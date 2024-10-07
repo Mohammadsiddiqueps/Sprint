@@ -1,0 +1,21 @@
+3 5 num:123 result:0
+7 num numtemp
+gtzbegin:5 zero numtemp gtz
+stop:9
+gtz:5 numtemp ten first
+2 numtemp ten numtemp
+1 counter one counter
+3 gtz
+first:7 result temp
+7 zero result
+secbegin:5 counter1 ten sec
+7 zero counter1
+1 result numtemp result
+7 counter numtemp
+7 zero counter
+3 gtzbegin
+sec:1 result temp result
+1 counter1 one counter1
+3 secbegin
+counter:0 one:1 zero:0 numtemp:0 ten:10 temp:0
+counter1:0
