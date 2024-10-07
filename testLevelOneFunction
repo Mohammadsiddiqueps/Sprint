@@ -1,0 +1,19 @@
+3 x:func_push 4 5 0 60
+func_push:1 num one num
+7 num temp
+1 num one num
+7 num number
+1 num one num
+7 num result
+7 num result1
+1 num one num
+7 num jumper
+begin:5 counter number:0 first
+7 jumper:0 jump
+3 jump:0
+first:1 temp:0 result:0 result1:0
+1 counter one counter
+3 begin
+num:x
+counter:0 one:1
+9
