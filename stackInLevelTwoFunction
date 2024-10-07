@@ -1,0 +1,67 @@
+3 x:func_push 4 1 0 77
+
+
+func_push:1 num one num
+
+7 num temp
+1 num one num
+7 num number
+1 num one num
+7 num result
+7 num result1
+1 num one num
+
+7 num jumper
+7 top move
+7 jumper:0 move:0
+1 one top top
+begin:5 counter number:0 first
+
+2 top one top
+7 top jump
+7 jump:0 jump1
+3 jump1:0
+first:1 counter one counter
+0 y numsec
+3 y:func_push2
+temp:0 result:0 result1:0 begin
+9
+
+num:x
+counter:0 one:1
+
+
+
+func_push2:1 numsec one numsec
+
+7 numsec numsec1
+7 numsec1:0 add1
+
+1 numsec one numsec
+7 numsec numsec2
+7 numsec2:0 add2
+
+1 numsec one numsec
+7 numsec numsec3
+7 numsec3:0 resadd
+
+1 numsec one numsec
+7 numsec jumper1
+7 top move1
+7 jumper1:0 move1:0
+1 one top top
+1 add1:0 add2:0 resadd:0
+
+2 top one top
+
+
+7 top move2
+
+7 move2:0 secjump
+
+
+3 secjump:0
+numsec:0
+
+top:firststack
+firststack:0
