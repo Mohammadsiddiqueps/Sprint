@@ -1,0 +1,13 @@
+3 6 num1:3 num2:15 result:0
+7 num1 temp1
+7 num2 temp2
+isEqual:4 temp1 temp2 X
+5 temp1 temp2 first
+1 temp2 num2 temp2
+3 isEqual
+first:1 temp1 num1 temp1
+3 isEqual
+X:7 temp1 result
+stop:9
+temp1:0
+temp2:0
