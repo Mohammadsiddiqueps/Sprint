@@ -1,0 +1,36 @@
+3 7 num:30
+ result:0 result1:0 result2:0
+7 num temp 
+check:5 temp odd 28
+2 temp odd temp
+1 odd two odd
+1 result one result
+3 check
+firstbegin:5 counter ten first
+7 zero counter
+secondbegin:5 counter hun second
+secloop:7 zero counter
+7 result1 temp
+thirdbegin:5 counter result1 third
+5 tempnum squaretemp fourth
+1 result1 one result1
+7 zero squaretemp
+3 secloop
+fourth:7 zero counter 
+2 result1 one result1
+remloop:5 result1 ten stop
+2 result1 ten result1
+3 remloop
+third:1 squaretemp temp squaretemp
+1 counter one counter
+3 thirdbegin
+second:1 tempnum num tempnum
+1 counter one counter
+3 secondbegin
+first:1 result1 result result1
+1 counter one counter
+3 firstbegin
+temp:0 odd:1 two:2 one:1 stop:9
+ten:10 counter:0 tempnum:0
+squaretemp:0 hun:100 
+zero:0
