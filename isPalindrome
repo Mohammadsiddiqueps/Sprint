@@ -1,0 +1,24 @@
+3 6 num:121 reverse:0 isPalindrome:0
+7 num numtemp
+gtzbegin:5 zero numtemp gtz
+4 num reverse nxt
+stop:9
+nxt:7 one isPalindrome
+3 stop
+gtz:5 numtemp ten first
+2 numtemp ten numtemp
+1 counter one counter
+3 gtz
+first:7 reverse temp
+7 zero reverse
+secbegin:5 counter1 ten sec
+7 zero counter1
+1 reverse numtemp reverse
+7 counter numtemp
+7 zero counter
+3 gtzbegin
+sec:1 reverse temp reverse
+1 counter1 one counter1
+3 secbegin
+counter:0 one:1 zero:0 numtemp:0 ten:10 temp:0
+counter1:0
