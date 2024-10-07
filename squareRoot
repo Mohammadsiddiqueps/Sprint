@@ -1,0 +1,8 @@
+3 5 inputNum:16 result:0
+7 inputNum temp 
+check:5 temp odd stop
+2 temp odd temp
+1 odd two odd
+1 result one result
+3 check
+temp:0 odd:1 two:2 one:1 stop:9
