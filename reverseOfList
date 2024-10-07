@@ -1,0 +1,23 @@
+3 5 first_element_location:66 length:3 
+1 first_element_location 
+length last
+2 last one last
+7 first_element_location first
+7 first_element_location first1
+1 first_element_location 
+length last1
+2 last1 one last1
+check:5 first last checker
+stop:9
+checker:7 first:0 temp
+7 last:0 first1:0
+7 temp last1:0
+2 last one last
+2 last1 one last1
+1 first one first
+1 first1 one first1
+3 check
+one:1
+temp:0
+1 2 3 4 5 
+8 9 7
