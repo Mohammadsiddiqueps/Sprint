@@ -1,0 +1,12 @@
+3 7 cellNo:36 length:5 target:2 result:0
+7 cellNo cell
+start:5 counter length checklength
+3 stop
+checklength:4 cell:0 target isEqual
+1 counter incrementer counter
+1 cell incrementer cell
+3 start
+isEqual:7 incrementer result 
+stop:9
+counter:0 incrementer:1
+1 2 3 4 5
